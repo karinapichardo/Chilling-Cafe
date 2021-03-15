@@ -168,12 +168,23 @@ footer {
         font-size: 1.8rem;
     }
 
-    td {
+    .menu-items {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    td,
+    p {
         font-size: 1.2rem;
     }
 
     th {
         font-size: 1.6rem;
+    }
+
+    #about-section {
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .grid-container {
@@ -206,5 +217,9 @@ footer {
         width: 320px;
         margin-left: -180px;
         text-align: center;
+    }
+
+    #copyright {
+        font-size: 1rem;
     }
 }
