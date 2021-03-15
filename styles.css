@@ -148,3 +148,63 @@ footer {
 #copyright {
     font-size: 1.2rem;
 }
+
+/* large screens */
+
+@media (min-width: 768px) {
+    .page-wrapper {
+        width: 800px;
+    }
+
+    #coffee-mug {
+        max-width: 100px;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    .section-heading {
+        font-size: 1.8rem;
+    }
+
+    td {
+        font-size: 1.2rem;
+    }
+
+    th {
+        font-size: 1.6rem;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        justify-items: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 140px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+
+    .grid-container > img {
+        width: 200px;
+        height: auto;
+        align-content: center;
+        margin: 3px;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+    .items-title {
+        font-size: 1.1rem;
+        font-weight: 100;
+        margin-bottom: -270px;
+        display: block;
+        width: 320px;
+        margin-left: -180px;
+        text-align: center;
+    }
+}
