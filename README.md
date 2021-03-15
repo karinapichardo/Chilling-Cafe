@@ -5,3 +5,8 @@ In this project, I did a mobile-first approach which allowed me to see how effic
 I also learned about tables and how to style them. Likewise, had some more practice with css grid which was awesome!
 
 Overall, fun project for sure!
+
+
+### You can check out the final result here:
+
+https://karinapichardo.github.io/Chilling-Cafe/
