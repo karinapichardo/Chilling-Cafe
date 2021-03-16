@@ -48,6 +48,10 @@ main {
     background-color: white;
 }
 
+figure {
+    margin: 0 auto;
+}
+
 #picture-section {
     margin-top: 1rem;
     background: url('images/nyc-view.jpg') no-repeat top center;
